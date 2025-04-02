@@ -1,0 +1,38 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+plotly
+ipykernel
+# ipykernel is used for Jupyter Notebook kernel
+pymongo
+# pymongo is used for MongoDB interactions
+from_root
+# from_root is used for resolving paths in the project
+dill
+# dill is used for serializing Python objects
+certifi 
+# certifi is used for SSL certificates
+PyYAML
+# PyYAML is used for loading and dumping YAML files
+boto3
+# boto3 is used for AWS S3 interactions
+mypy-boto3-s3
+# mypy-boto3-s3 is used for type checking with boto3 S3 client
+botocore
+# botocore is a low-level interface to AWS services
+fastapi
+# fastapi is used for building APIs
+uvicorn
+# uvicorn is an ASGI server for running FastAPI applications
+python-multipart
+# python-multipart is used for handling file uploads in FastAPI
+uvicorn
+# uvicorn is an ASGI server for running FastAPI applications
+jinja2
+# jinja2 is a templating engine for Python
+imblearn
+# imblearn is used for handling imbalanced datasets
+-e .
+# -e . is used for installing the package in editable mode
