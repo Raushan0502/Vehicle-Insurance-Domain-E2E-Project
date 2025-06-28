@@ -7,6 +7,10 @@ temporary_rough.txt
 # C extensions
 *.so
 
+#folder for temporary files
+artifact/
+logs/
+
 # Distribution / packaging
 .Python
 build/

@@ -5,6 +5,8 @@ matplotlib
 seaborn
 plotly
 ipykernel
+dotenv
+# dotenv is used for loading environment variables from a .env file
 # ipykernel is used for Jupyter Notebook kernel
 pymongo
 # pymongo is used for MongoDB interactions
