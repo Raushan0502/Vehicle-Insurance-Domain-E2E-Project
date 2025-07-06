@@ -121,6 +121,7 @@ write the code on setup.py and pyproject.toml to import local package
       sudo sh get-docker.sh
       sudo usermod -aG docker ubuntu
       newgrp docker
+      for checking docker installed or not!! -- docker ps
 
 29. Next step is to connect Github with EC2(Self hosted runner):
       * select your project on Github >> go to settings >> Actions >> Runner >> New self hosted runner
@@ -136,6 +137,8 @@ write the code on setup.py and pyproject.toml to import local package
       AWS_SECRET_ACCESS_KEY
       AWS_DEFAULT_REGION
       ECR_REPO
+    For trainig option, need to add mongodb url also
+      MONGODB_URL
 
 31. CI-CD pipeline will be triggered at next commit and push.
 32. Now we need to activate the 5000 port of our EC2 instance:
