@@ -6,14 +6,14 @@ import certifi
 from src.exception import MyException
 from src.logger import logging
 from src.constants import DATABASE_NAME, MONGODB_URL_KEY
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
-# Load .env variables
-load_dotenv()
+# # Load .env variables
+# load_dotenv()
 
 # Access MongoDB URL
-mongo_url = os.getenv("MONGODB_URL")
-print(mongo_url)
+mongo_url = os.getenv(MONGODB_URL_KEY)
+#print(mongo_url)
 # Load the certificate authority file to avoid timeout errors when connecting to MongoDB
 ca = certifi.where()
 
